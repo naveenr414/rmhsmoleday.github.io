@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="response2.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+
+<center> 
+
+<h1> Enter the Puzzle Answer </h1>
+
+<input type="text" id="myText" value="Mickey" onkeypress="return Response(event,this)"> <br> 
+
+Puzzle Number: 
+<select id="puzzleNumber" name="puzzleNumber">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+
+  </select>
+
+<p id="Response">No Puzzle Entered</p>
+
+<button onclick="Response(2)" class="myButton">Submit</button>
+
+
+</center>
+</body>
+</html>
